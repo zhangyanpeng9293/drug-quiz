@@ -953,7 +953,7 @@ async function cloudPush() {
   }
 }
 
-async async function syncScoresFromCloud() {
+async function syncScoresFromCloud() {
   const data = await cloudPull();
   return data;
 }
